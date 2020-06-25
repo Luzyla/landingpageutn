@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;900&display=swap');
+
+body {
+    background-image: url(./images/2927262.jpg);
+    background-size: 150ch;
+    font-family: Montserrat;
+}
+
+/* Encabezados */
+
+h1 {
+    color: #fcfcfc; /* White */
+    text-align: center;
+    font-size: 40px;
+    margin-top: 5px;
+}
+
+h2 {
+    color: #fafafa; /* Fafafa */
+    text-align: center;
+    align-items: center;
+    margin-bottom: 2px;
+}
+
+.yo {
+    color: #e91e63;
+}
+
+.seccion {
+    /*border: 5px solid red;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+#header {
+    height: 200px;
+    margin: 1px 10px 10px 10px
+}
+/* Botonera unidades */
+
+.button1 {
+    background-color: #b0f1e7; /* Tiffany blue */
+    border: 5px solid #338f85; 
+    color: #338f85;
+    padding: 14px 45px;
+    text-align: center;
+    width: 120px;
+    float: left;
+    margin: 2px 2px;
+    margin-left: 10%;
+    margin-right: 5%;
+}
+
+.button1:hover {
+    background-color: #338f85; /* Oil turquoise */
+    color: #cdcdcd;
+    border: 5px solid #cdcdcd; 
+}
+
+/* Cambios de estilo */
+
+a {
+    text-decoration: none;
+    font-style: none;
+    color: #338f85; 
+    font-weight: bold;
+}
+
+ul {
+    margin: 0px;
+    padding-left: 0px;
+    list-style-type: none;
+}
+
+.unidades {
+    align-content: center;
+    height: 350px;
+    margin-bottom: 10px;
+}
+
+/* Tributos al pie */
+p {
+    padding: 2px;
+    display: block;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+.tributos {
+    text-align: center;
+    color: #fcfcfc;
+    font-size: 12px;
+    height: 50px;
+
+}
+/*
+.done img {
+    whidt: 10px;
+    margin: 1px;
+}*/
+
+/* Lucila Di Lorenzo */
